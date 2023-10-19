@@ -1,0 +1,8 @@
+test.js
+node_modules
+./routes/test.js
+./middlewares/test.js
+./controllers/testController
+
+.env
+config/database.js

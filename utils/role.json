@@ -1,0 +1,37 @@
+{
+  "id": 67,
+  "role": "Manager",
+  "description": "Yes",
+  "read": false,
+  "write": false,
+  "delete": false,
+  "createdAt": "2023-09-19T13:41:53.005Z",
+  "updatedAt": "2023-09-19T13:41:53.005Z",
+  "branchId": 11,
+  "modules": [
+    {
+      "name": "Employee",
+      "permission": {
+        "read": true,
+        "write": false,
+        "delete": false
+      }
+    },
+    {
+      "name": "Shift",
+      "permission": {
+        "read": false,
+        "write": false,
+        "delete": false
+      }
+    },
+    {
+      "name": "Schedule",
+      "permission": {
+        "read": true,
+        "write": false,
+        "delete": false
+      }
+    }
+  ]
+}
